@@ -1,0 +1,21 @@
+<section id="nameform">
+    <div class="modal">
+        <div class="backdrop">
+            <div class="popup">
+                <div class="pophead">Please enter a nickname</div>
+                <div class="popbody">
+                    <input type="text" id="nickname">
+                    <input id="setname" type="button" value="Set Name">
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
+<section id="chatroom">
+    <div id="messages">
+        <input type="text" id="message" placeholder="Enter your message here">
+        <input type="button" id="send" value="Send">
+    </div>
+</section>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/chat.js"></script>

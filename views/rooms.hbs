@@ -1,0 +1,16 @@
+{{#section 'head'}}
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="/javascripts/rooms.js"></script>
+{{/section}}
+
+<section id="chatrooms">
+    <div id="new_room">
+        <span>Start a new Room</span>
+        <input type="text" id="new_room_name">
+        <input type="button" value="Start" id="new_room_btn">
+    </div>
+    <div id="allrooms">
+        <div id="header">Or join a room</div>
+        <div id="rooms_list"></div>
+    </div>
+</section>
